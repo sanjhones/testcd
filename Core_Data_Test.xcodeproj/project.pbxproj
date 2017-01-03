@@ -14,6 +14,9 @@
 		E3581EC81E0EF0A8004568E6 /* Core_Data_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E3581EC61E0EF0A8004568E6 /* Core_Data_Test.xcdatamodeld */; };
 		E3581ECA1E0EF0A8004568E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3581EC91E0EF0A8004568E6 /* Assets.xcassets */; };
 		E3581ECD1E0EF0A8004568E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3581ECB1E0EF0A8004568E6 /* LaunchScreen.storyboard */; };
+		E3C38FB91E10166F00B49FEA /* carbg.png in Resources */ = {isa = PBXBuildFile; fileRef = E3C38FB81E10166F00B49FEA /* carbg.png */; };
+		E3C38FBC1E1018D100B49FEA /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C38FBB1E1018D100B49FEA /* ViewController2.m */; };
+		E3C38FC21E1035CF00B49FEA /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C38FC11E1035CF00B49FEA /* TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,11 @@
 		E3581EC91E0EF0A8004568E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3581ECC1E0EF0A8004568E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3581ECE1E0EF0A8004568E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3C38FB81E10166F00B49FEA /* carbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carbg.png; sourceTree = "<group>"; };
+		E3C38FBA1E1018D100B49FEA /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		E3C38FBB1E1018D100B49FEA /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		E3C38FC01E1035CF00B49FEA /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		E3C38FC11E1035CF00B49FEA /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +68,15 @@
 		E3581EB91E0EF0A8004568E6 /* Core_Data_Test */ = {
 			isa = PBXGroup;
 			children = (
+				E3C38FB81E10166F00B49FEA /* carbg.png */,
 				E3581EBD1E0EF0A8004568E6 /* AppDelegate.h */,
 				E3581EBE1E0EF0A8004568E6 /* AppDelegate.m */,
 				E3581EC01E0EF0A8004568E6 /* ViewController.h */,
 				E3581EC11E0EF0A8004568E6 /* ViewController.m */,
+				E3C38FBA1E1018D100B49FEA /* ViewController2.h */,
+				E3C38FBB1E1018D100B49FEA /* ViewController2.m */,
+				E3C38FC01E1035CF00B49FEA /* TableViewCell.h */,
+				E3C38FC11E1035CF00B49FEA /* TableViewCell.m */,
 				E3581EC31E0EF0A8004568E6 /* Main.storyboard */,
 				E3581EC91E0EF0A8004568E6 /* Assets.xcassets */,
 				E3581ECB1E0EF0A8004568E6 /* LaunchScreen.storyboard */,
@@ -142,6 +155,7 @@
 				E3581ECD1E0EF0A8004568E6 /* LaunchScreen.storyboard in Resources */,
 				E3581ECA1E0EF0A8004568E6 /* Assets.xcassets in Resources */,
 				E3581EC51E0EF0A8004568E6 /* Main.storyboard in Resources */,
+				E3C38FB91E10166F00B49FEA /* carbg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,8 +166,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3C38FC21E1035CF00B49FEA /* TableViewCell.m in Sources */,
 				E3581EC81E0EF0A8004568E6 /* Core_Data_Test.xcdatamodeld in Sources */,
 				E3581EC21E0EF0A8004568E6 /* ViewController.m in Sources */,
+				E3C38FBC1E1018D100B49FEA /* ViewController2.m in Sources */,
 				E3581EBF1E0EF0A8004568E6 /* AppDelegate.m in Sources */,
 				E3581EBC1E0EF0A8004568E6 /* main.m in Sources */,
 			);
@@ -306,6 +322,7 @@
 				E3581ED31E0EF0A8004568E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
